@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 public class MySQLLink {
 
     private final String driver = "com.mysql.jdbc.Driver";  //jdbc类地址
-    private final String url = "jdbc:mysql://localhost:3307/web";//链接地址
+    private final String url = "jdbc:mysql://localhost:3306/web";//链接地址
     private final String user = "root";//用户名  
     private final String passsord = "root"; //密码 
     private static MySQLLink use = null;

@@ -1,0 +1,7 @@
+该项目是java web项目，使用eclipse编写，由于是我早期作品，前端和后台都很乱， 不过现在也没有重新去打磨的必要了。
+
+该项目分成三种用户，老师和学生使用本项目，即web端，由于某些原因，管理员要使用widows端登陆使用，即windows端试题库管理系统项目。两者数据库互通。
+
+本项目最有价值的地方在于使用了poi工具进行word文档的生成。代码在WebContent->jsp->student->CreateTestPaper.jsp下。。。。我以前居然把生成试卷的代码写在了JSP页面里。。。
+
+还有一个就是生成验证码的代码，在src->servlet->yzm.java中，请求这个servlet即会返回一张图片，就是验证码。而具体的生成验证码类在util->ImageUtils.java中，它会把图片输出到response的输出流中，同时会将正确的验证码字符串放进request域中。

@@ -1,1 +1,5 @@
-﻿该项目是java web项目，使用NetBeans进行编写，是NetBeans项目。如果需要Eclipse项目，只需把src下的java和web目录下的所有文件即目录复制到Eclipse的一个空java web项目下的src和web目录即可。这是一个类LeetCode项目，使用原生JSP和JDBC技术，没有使用框架，主要实现了用户在网页编写提交代码后服务器进行编译，然后运行5次程序，首先对程序进行输入，然后获取程序输出，最后对数据库中的答案进行匹配并得出分数，最后返回结果。
+﻿该项目是java web项目，使用NetBeans进行编写，是NetBeans项目。
+
+如果需要Eclipse项目，只需把src下的java和web目录下的所有文件即目录复制到Eclipse的一个空java web项目下的src和web目录即可。
+
+这是一个类LeetCode项目，使用原生JSP和JDBC技术，没有使用框架，主要实现了用户在网页编写提交代码后服务器进行编译，然后运行5次程序，首先对程序进行输入，然后获取程序输出，最后对数据库中的答案进行匹配并得出分数，最后返回结果。
